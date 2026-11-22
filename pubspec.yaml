@@ -1,9 +1,8 @@
 name: embossed_card_scanner
 description: "Reads embossed payment card numbers on device with a small CNN. Headless API for photos and your own frame streams, plus a ready camera widget with a torch."
 version: 1.0.0
-# TODO: set before publishing.
-# repository: https://github.com/<owner>/embossed_card_scanner
-# issue_tracker: https://github.com/<owner>/embossed_card_scanner/issues
+repository: https://github.com/pavello06/embossed_card_scanner
+issue_tracker: https://github.com/pavello06/embossed_card_scanner/issues
 
 topics:
   - credit-card
