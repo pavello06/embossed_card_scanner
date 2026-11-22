@@ -1,0 +1,7 @@
+fonts/
+__pycache__/
+*.npz
+.venv/
+*.keras
+*.keras.temperature
+*.log
