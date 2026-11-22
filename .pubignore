@@ -1,0 +1,14 @@
+.dart_tool/
+build/
+pubspec.lock
+.idea/
+*.iml
+.DS_Store
+test_card/
+example/build/
+example/.dart_tool/
+
+# Not part of the published package.
+train/
+.flutter-plugins-dependencies
+example/.flutter-plugins-dependencies

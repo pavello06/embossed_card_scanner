@@ -1,0 +1,9 @@
+.dart_tool/
+build/
+.packages
+pubspec.lock
+.idea/
+*.iml
+.DS_Store
+# Real card photos for local tests: never commit or publish.
+test_card/
