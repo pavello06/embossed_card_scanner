@@ -2,8 +2,8 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:camera/camera.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:material_ui/material_ui.dart';
 
 import '../api/card_scan_result.dart';
 import '../api/card_scanner_engine.dart';
@@ -211,7 +211,10 @@ class _CardScannerViewState extends State<CardScannerView> with WidgetsBindingOb
         imageFormatGroup: Platform.isAndroid ? ImageFormatGroup.nv21 : ImageFormatGroup.bgra8888,
       );
       await camera.initialize();
-      if (_disposed) return camera.dispose();
+      if (_disposed) {
+        await camera.dispose();
+        return;
+      }
       await camera.lockCaptureOrientation(DeviceOrientation.portraitUp);
       setState(() => _camera = camera);
       if (_controller.torchOn) await _setTorch(true);

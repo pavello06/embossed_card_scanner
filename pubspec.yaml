@@ -17,14 +17,15 @@ platforms:
   ios:
 
 environment:
-  sdk: ^3.12.2
-  flutter: ">=3.44.0"
+  sdk: ^3.14.0
+  flutter: ">=3.50.1"
 
 dependencies:
   flutter:
     sdk: flutter
   camera: ^0.12.2
   image: ^4.12.0
+  material_ui: ^1.11.1
   meta: ^1.16.0
   tflite_flutter: ^0.12.1
 

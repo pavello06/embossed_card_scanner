@@ -1,5 +1,5 @@
 import 'package:embossed_card_scanner/embossed_card_scanner.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 void main() => runApp(const ExampleApp());
 
